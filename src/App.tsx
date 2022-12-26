@@ -203,7 +203,7 @@ function App() {
                         style={{ width: 200, height: 200 }}
                         src={`${selectedExampleImage.img}`}
                         srcSet={`${selectedExampleImage.img}`}
-                        // alt={item.title}
+                        alt={"alt"}
                         loading="lazy"
                         ref={exampleImageRef}
                       />
@@ -227,7 +227,7 @@ function App() {
                           <img
                             src={`${item.img}`}
                             srcSet={`${item.img}`}
-                            // alt={item.title}
+                            alt={"alt"}
                             loading="lazy"
                             ref={exampleImageRef}
                           />
@@ -259,7 +259,7 @@ function App() {
                   style={{ width: 200, height: 200 }}
                   src={`${selectedIdentifyImage.img}`}
                   srcSet={`${selectedIdentifyImage.img}`}
-                  // alt={item.title}
+                  alt={"alt"}
                   loading="lazy"
                   ref={identifyImageRef}
                 />
